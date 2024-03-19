@@ -3,7 +3,7 @@ function generateGreeting(name) {
   const currentHour = currentTime.getHours();
   let greeting = "";
 
-  if (currentHour >= 5 && currentHour < 12) {
+  if (currentHour >= 5 && currentHour < 12) { 
     greeting = "Good morning " + name;
   } else if (currentHour >= 12 && currentHour < 17) {
     greeting = "Good afternoon " + name;
